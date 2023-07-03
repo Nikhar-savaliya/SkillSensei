@@ -1,0 +1,72 @@
+@media only screen and (max-width: 480px) {
+    
+    .t1 {
+        font-size: 28px;
+        line-height: 2rem;
+      }
+    .t2 {
+        font-size: 20px;
+    }
+    .txt {
+        font-size: 14px;
+      }
+      .txt2 {
+        font-size: 14px;
+      }
+      .txt-italic {
+        font-size: 18px;
+        margin-top : -10px;
+        padding-bottom : 0.8rem;
+      }
+      .txt-italic2 {
+        font-size: 14px;
+      }
+      .button-primary {
+        font-size: 14px;
+        padding: 8px 30px;
+      }
+
+      header{
+        padding: auto 0;
+        margin: auto 0;
+        max-width: 90vw;
+      }
+    
+    .hero--left {
+        margin:0vh;
+        max-width: 80vw;
+    }
+    .hero--left > p{
+        margin:0vh;
+        
+     }
+     .about {
+      max-width: 80vw;
+     }
+     .courses {
+      max-width: 80vw;
+     }
+     .course-detail {
+      flex-direction: column;
+    }
+    .course-detail:last-child{
+      padding-bottom: 3rem;
+    }
+    .coures-rev-layout{
+      flex-direction: column-reverse;
+     }
+
+    .course-type{
+      max-width: 80vw;
+      margin: auto;
+    }
+
+    .client-testimony {
+      max-width: 80%;
+      margin: auto;
+    }
+    footer{
+     margin: 0 10px;
+    }
+     
+}

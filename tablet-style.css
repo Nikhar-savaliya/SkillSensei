@@ -1,0 +1,117 @@
+@media screen and (max-width:850px) {
+
+    .t1 {
+        font-size: 32px;
+      }
+    .t2 {
+        font-size: 24px;
+    }
+    .txt {
+        font-size: 16px;
+      }
+      .txt2 {
+        font-size: 16px;
+      }
+      .txt-italic {
+        font-size: 22px;
+        margin-top : -10px
+      }
+      .txt-italic2 {
+        font-size: 16px;
+      }
+      .button-primary {
+        font-size: 16px;
+        padding: 8px 30px;
+
+      }
+
+
+      /* navbar */
+
+      .toggle-button {
+        display: flex;
+      }
+      #nav {
+        display: none;
+      }
+      nav ul {
+        position: absolute;
+        right: 0rem;
+        top: 0rem;
+        width: 15rem;
+        height: fit-content;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        justify-content: flex-start;
+        flex-direction: column;
+        background-color: white;
+        box-shadow: -5px 5px 5px rgba(0,0,0,0.1)
+      }
+      .close-button {
+        display: none;
+        
+      }
+
+     .hero   {
+        flex-direction: column-reverse;
+     }
+     .hero--left-wrapper, .hero--right-wrapper{
+        width: 100dvw;
+        padding: 0;
+     } 
+     .hero--left{
+        margin:-5vh;
+     }
+     .hero--right {
+        display: flex;
+        align-items: center;
+     }
+     .hero--right img {
+        width: 65vw;
+        margin: auto;
+        overflow: hidden;
+     }
+    
+     .client-card-wrapper {
+        grid-template-columns: auto;
+        gap: 2vw;
+     }
+
+    .client-card {
+        margin: auto;
+        width: 70vw;
+        padding: 2vw 2vw;
+    }
+    .client-photo > img {
+        width: 7vw;
+        height: 7vw;
+    }
+
+    .pricing{
+        grid-template-columns: auto;
+        gap: 2vw;
+        place-items: center;
+    } 
+    .plan-card{
+      padding: auto;
+      margin: auto;
+      width: 80vw;
+    }
+    .plan-price {
+        font-size: 36px;
+    }
+
+    footer > .footer-text {
+        flex-direction: column;
+        font-size: 14px;
+        gap: 5px;
+    }
+
+
+
+
+
+
+
+
+    }

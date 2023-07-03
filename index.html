@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkillSensei</title>
+
+    <!-- css Links -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="tablet-style.css" />
+    <link rel="stylesheet" href="mobile-style.css">
+  </head>
+
+  <body>
+    <!---------- header section ---------->
+    <div class="header--wrapper">
+      <header>
+        <div class="logo">
+          <img class="logo--image" src="img/logo.png" alt="logo" />
+          <span class="logo--text">SkillSensei</span>
+        </div>
+        <a href="#" onclick=showSidebar() class="toggle-button">
+          <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg>
+        </a>
+        <a href="#" onclick=hideSidebar() class="close-button">
+          <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a>
+
+        <nav id="nav">
+          <ul>
+            <li><a href="#aboutus" class="nav--link">About us</a></li>
+            <li><a href="#services" class="nav--link">Services</a></li>
+            <li><a href="#pricing" class="nav--link">Pricing</a></li>
+            <li><a href="#contactus" class="nav--link">Contact us</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <!---------- main section ---------->
+    <main class="hero">
+      <div class="hero--left-wrapper">
+        <div class="hero--left">
+          <p class="t1">we are SkillSensei,</p>
+          <p class="txt-italic">we make you job ready</p>
+          <p class="txt2">
+            Ignite Your Potential, Elevate Your Skills with SkillSensei.
+            <br />join SkillSensei now to Unleash Your Excellence.
+          </p>
+          <button class="button-primary">Start ur journey</button>
+        </div>
+      </div>
+      <div class="hero--right-wrapper">
+        <div class="hero--right">
+          <img src="img/Online tech talks-pana.png" alt="hero-image" />
+        </div>
+      </div>
+    </main>
+
+    <!---------- About section ---------->
+    <section class="about-wrapper" id="aboutus">
+      <div class="about">
+        <p class="t2">About us</p>
+        <ul class="txt">
+          <li>
+            <p>
+              Welcome to SkillSensei, your gateway to personal growth and
+              professional success. We are dedicated to empowering individuals
+              through transformative courses on self-development and career
+              counseling.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              At SkillSensei, we understand that true fulfillment comes from
+              honing your skills, unlocking your potential, and navigating the
+              intricacies of your career path. Our expertly crafted courses are
+              designed to equip you with the knowledge, tools, and guidance
+              needed to thrive in today's dynamic world.
+            </p>
+          </li>
+          <li>
+            <p>
+              Whether you're seeking to enhance your personal effectiveness,
+              boost your leadership capabilities, or explore new career
+              opportunities, our team of experienced mentors and career coaches
+              are here to guide you every step of the way. With SkillSensei,
+              you'll embark on a transformative journey, discovering your true
+              talents, overcoming obstacles, and achieving remarkable growth.
+            </p>
+          </li>
+          <li>
+            <p>
+              Join our thriving community of learners and unleash your full
+              potential. Invest in yourself with SkillSensei, and unlock a world
+              of endless possibilities for personal and professional success.
+              Start your journey today and become the master of your own skills
+              with SkillSensei.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="numbers-wrapper">
+      <div class="numbers">
+        <p class="t2 numbers-numbs">
+          400+<br /><span class="txt numbers-items">hours of work</span>
+        </p>
+        <p class="t2 numbers-numbs">
+          314+<br /><span class="txt numbers-items">project done</span>
+        </p>
+        <p class="t2 numbers-numbs">
+          295+<br /><span class="txt numbers-items">happy clients</span>
+        </p>
+        <p class="t2 numbers-numbs">
+          620+<br /><span class="txt numbers-items">cup of coffee</span>
+        </p>
+      </div>
+    </section>
+    <section class="courses-wrapper">
+      <div class="courses" id="services">
+        <p class="t2">what we offer</p>
+
+        <div class="course-detail  coures-rev-layout">
+          <div class="course-type">
+            <p class="t2 course--name">Self-Development Courses</p>
+            <p class="txt course--brief">
+              enhance your personal effectiveness, boost your confidence, and
+              foster a positive mindset. From mindfulness and self-care to
+              communication skills and emotional intelligence, we provide the
+              tools and strategies to help you thrive in all areas of life.
+            </p>
+          </div>
+          <div class="course-image">
+            <img src="img/Soft skills-pana.png" alt="" />
+          </div>
+        </div>
+
+        <div class="course-detail">
+          <div class="course-image">
+            <img src="img/Discussion-pana.png" alt="" />
+          </div>
+          <div class="course-type">
+            <p class="t2 course--name">Career Counseling</p>
+            <p class="txt course--brief">
+              Our experienced career counselors are here to guide you through
+              every stage of your career journey. Whether you're a recent
+              graduate, considering a career transition, or seeking advancement
+              opportunities, we offer personalized counseling sessions to help
+              you identify your strengths, clarify your goals, and create a
+              strategic roadmap for success.
+            </p>
+          </div>
+        </div>
+
+        <div class="course-detail coures-rev-layout">
+          <div class="course-type">
+            <p class="t2 course--name">Skill Enhancement Programs</p>
+            <p class="txt course--brief">
+              Stay ahead of the curve with our skill enhancement programs. From
+              leadership and team-building to digital marketing and data
+              analysis, our courses are designed to equip you with in-demand
+              skills that will give you a competitive edge in the ever-evolving
+              job market.
+            </p>
+          </div>
+          <div class="course-image">
+            <img src="img/Public talk-pana.png" alt="" />
+          </div>
+        </div>
+
+        <div class="course-detail">
+          <div class="course-image">
+            <img src="img/Building hashtag-pana.png" alt="" />
+          </div>
+          <div class="course-type">
+            <p class="t2 course--name">Workshops and Seminars</p>
+            <p class="txt course--brief">
+              Attend our engaging workshops and seminars led by industry experts
+              and thought leaders. These interactive sessions provide valuable
+              insights, practical strategies, and networking opportunities to
+              further enhance your knowledge and broaden your professional
+              network.
+            </p>
+          </div>
+        </div>
+
+        <div class="course-detail coures-rev-layout">
+          <div class="course-type">
+            <p class="t2 course--name">Resources and Tools</p>
+            <p class="txt course--brief">
+              Access our rich collection of resources, including e-books,
+              articles, and practical tools, to support your continuous learning
+              and development journey. Stay motivated, informed, and inspired
+              with our curated content.
+            </p>
+          </div>
+          <div class="course-image">
+            <img src="img/Connected world-pana.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonies-wrapper">
+      <div class="testimonies">
+        <p class="t2">hear from happy clients</p>
+        <div class="client-card-wrapper">
+          <div class="client-card">
+            <div class="client-photo">
+              <img
+                src="https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.webp?b=1&s=170667a&w=0&k=20&c=YQ_j83pg9fB-HWOd1Qur3_kBmG_ot_hZty8pvoFkr6A="
+                alt=""
+              />
+            </div>
+
+            <div class="client-detail">
+              <p class="client-name t2">Sarah M.</p>
+              <p class="client-profession">Marketing Professional</p>
+            </div>
+
+            <div class="client-testimony">
+              <p class="txt-italic2">
+                "SkillSensei has been a game-changer for me. The
+                self-development courses I took helped me gain clarity, boost my
+                confidence, and achieve personal breakthroughs. The career
+                counseling sessions provided by Sarah Johnson were invaluable,
+                enabling me to make informed decisions and land my dream job in
+                marketing. I highly recommend SkillSensei to anyone looking to
+                unlock their potential and succeed in both personal and
+                professional aspects."
+              </p>
+            </div>
+          </div>
+          <div class="client-card">
+            <div class="client-photo">
+              <img
+                src="https://images.pexels.com/photos/5384445/pexels-photo-5384445.jpeg?cs=srgb&dl=pexels-monstera-5384445.jpg&fm=jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="client-detail">
+              <p class="client-name t2">John P.</p>
+              <p class="client-profession">IT Specialist</p>
+            </div>
+
+            <div class="client-testimony">
+              <p class="txt-italic2">
+                "SkillSensei's skill enhancement programs have transformed my
+                career trajectory. The courses I enrolled in not only expanded
+                my knowledge and skills but also gave me the confidence to
+                pursue new opportunities. The instructors were highly
+                knowledgeable, and the guidance provided by John Anderson was
+                exceptional. Thanks to SkillSensei, I've seen significant
+                professional growth and landed a promotion within months. I'm
+                grateful for their expertise and support."
+              </p>
+            </div>
+          </div>
+          <div class="client-card">
+            <div class="client-photo">
+              <img
+                src="https://t3.ftcdn.net/jpg/02/00/90/24/360_F_200902415_G4eZ9Ok3Ypd4SZZKjc8nqJyFVp1eOD6V.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="client-detail">
+              <p class="client-name t2">Michael S.</p>
+              <p class="client-profession">Sales Executive</p>
+            </div>
+
+            <div class="client-testimony">
+              <p class="txt-italic2">
+                "SkillSensei's career counseling services were a turning point
+                in my professional life. The counselor I worked with, Michael
+                Stevens, was knowledgeable, supportive, and genuinely invested
+                in my success. They helped me uncover my true passions, align my
+                career goals, and provided practical strategies to overcome
+                challenges. With their guidance, I landed a job that perfectly
+                matches my skills and interests. SkillSensei, and Michael in
+                particular, is a trusted partner for anyone seeking personalized
+                career advice and guidance."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- -------------pricing section------------- -->
+    <section class="pricing-wrapper">
+      <p class="t2">Pricing</p>
+      <div class="pricing">
+        <div class="plan-card">
+          <div class="plan-name t2">Basic</div>
+          <div class="plan-description">
+            <div class="plan-price">
+              <p>$99</p>
+            </div>
+            <div class="plan-feature">
+              <ul>
+                <li>daily tasks</li>
+                <li>Certification</li>
+                <li>basic course of your choice</li>
+                <li>one-to-one session (lasting 1 hour)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="plan-card">
+          <div class="plan-name t2">Advance</div>
+          <div class="plan-description">
+            <div class="plan-price">
+              <p>$199</p>
+            </div>
+            <div class="plan-feature">
+              <ul>
+                <li>daily tasks</li>
+                <li>Certification</li>
+                <li>long sessions</li>
+                <li>one-to-one session</li>
+                <li>advance session by industry experts</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="plan-card">
+          <div class="plan-name t2">Advance+</div>
+          <div class="plan-description">
+            <div class="plan-price">
+              <p>$249</p>
+            </div>
+            <div class="plan-feature">
+              <ul>
+                <li>daily tasks</li>
+                <li>Certification</li>
+                <li>long sessions</li>
+                <li>one-to-one session</li>
+                <li>basic course of your choice</li>
+                <li>VIP Access or Premium Events</li>
+                <li>advance session by industry experts</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-us-wrapper">
+      <p class="t2">feel free to ask anyting</p>
+      <div class="contact-us">
+        <form>
+          <input type="email" class="form-field" placeholder="Mail Address" />
+          <input
+            type="text"
+            class="form-field"
+            placeholder="Enter your Question"
+          />
+          <input type="submit" value="send" />
+        </form>
+        <img src="img/Mobile Marketing-pana.png" />
+      </div>
+    </section>
+
+    <div class="footer-wrapper">
+      <footer>
+        <div class="socials">
+          <p class="logo--text footer--logo" ">
+            SkillSensei
+          </p>
+          <div class="socials-icons">
+            <img src="img/facebook.png" alt="">
+            <img src="img/linkedin.png" alt="">
+            <img src="img/twitter.png" alt="">
+          </div>
+        </div>
+        <div class="footer-text">
+
+          <div class="contact--phone">
+            <p class="yellow--title">call us now</p>
+            <p class="footer--info">+040 888 6666</p>
+          </div>
+          <div contact--mail>
+            <p class="yellow--title">Mail Address</p>
+            <p class="footer--info">hello@skillsensei.com</p>
+          </div>
+          <div contact--address>
+            <p class="yellow--title">Address</p>
+            <p class="footer--info">808, lightning street,<br>USA</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+    <script>
+      let nav = document.getElementById('nav');
+      let menubtn = document.querySelector(".toggle-button");
+      let closebtn = document.querySelector(".close-button");
+      const showSidebar = () => {
+        nav.style.display = 'flex';
+        closebtn.style.display = 'flex';
+        menubtn.style.display = "none";
+        nav.style.transition = 'all 1s'
+      }
+      const hideSidebar= () => {
+        nav.style.display = 'none';
+        menubtn.style.display = "flex";
+        closebtn.style.display = 'none';
+
+      }
+    </script>
+  
+  </body>
+</html>
